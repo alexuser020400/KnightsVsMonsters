@@ -49,3 +49,11 @@ Clone the repository:
 ```bash
 git clone https://github.com/alexuser020400/KnightsVsMonsters.git
 cd KnightsVsMonsters
+
+Compile:
+
+javac src/*.java
+
+Run:
+
+java -cp src Main
