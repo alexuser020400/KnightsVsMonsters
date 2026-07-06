@@ -44,16 +44,12 @@ The project applies OOP concepts through a structured class hierarchy:
 
 ## How to Run
 
-Clone the repository:
+Clone the repository, compile and run:
 
 ```bash
 git clone https://github.com/alexuser020400/KnightsVsMonsters.git
 cd KnightsVsMonsters
 
-Compile:
-
 javac src/*.java
-
-Run:
 
 java -cp src Main
