@@ -1,56 +1,51 @@
-# Knights vs Monsters 
+# Knights vs Monsters
 
-A simple Java game featuring Knights, Monsters, and a Player, with both console and GUI modes.
+A turn-based Java game featuring Knights, Monsters and a Player, built with object-oriented programming principles.  
+The project includes both console gameplay and a Swing-based GUI.
 
----
+![Game Screenshot](game-screenshot.png)
+
+## Overview
+
+Knights vs Monsters is a Java university project focused on applying core OOP concepts such as inheritance, abstraction, encapsulation and polymorphism in a simple game environment.
+
+The game simulates turn-based battles between two teams, with player movement, healing, entity removal and victory condition logic.
 
 ## Features
-- Turn-based battles between **Knights** and **Monsters**.
-- Healing system for injured fighters.
-- Automatic removal of dead entities from the map.
-- Victory condition detection when a team wins.
-- Color-coded map rendering with a **Swing-based GUI**.
-- Console mode for text-based gameplay (optional).
 
----
+- Turn-based battles between Knights and Monsters
+- Player-controlled movement
+- Healing system for injured fighters
+- Automatic removal of defeated entities
+- Victory condition detection
+- Console-based gameplay
+- Swing-based graphical interface
+- Color-coded map rendering
+
+## Technologies
+
+- Java 17+
+- Java Swing
+- Object-Oriented Programming
+- Git / GitHub
+
+## Object-Oriented Design
+
+The project applies OOP concepts through a structured class hierarchy:
+
+- `Entity` — base class for game objects
+- `Fighter` — abstract fighter behavior
+- `Knight` — knight-specific behavior
+- `Monster` — monster-specific behavior
+- `Player` — player-controlled entity
+- `Map` — game map and entity positioning
+- `GameGUI` — Swing-based user interface
+- `Main` — application entry point
 
 ## How to Run
 
-### **Compile**
-Open a terminal in the root folder of the project and run:
+Clone the repository:
 
-javac src/*.java
-
-Run:
-java -cp src Main
-
-🕹️ Controls
-Key	Action
-W / A / S / D	Move the Player
-P	Pause the game & view team statistics
-Q	Quit the game
-
-🛠️ Built With
-Java 17+
-Swing for GUI
-
-📂 Project Structure
-css
-KnightsVsMonsters/
-│
-├── src/
-│   ├── Entity.java
-│   ├── Fighter.java
-│   ├── Knight.java
-│   ├── Monster.java
-│   ├── Player.java
-│   ├── Map.java
-│   ├── GameGUI.java
-│   └── Main.java
-│
-├── Screenshot 2025-06-05 193624.png
-├── README.md
-└── LICENSE
-
-📄 License
-This project is licensed under the MIT License – see the LICENSE file for details.
+```bash
+git clone https://github.com/alexuser020400/KnightsVsMonsters.git
+cd KnightsVsMonsters
